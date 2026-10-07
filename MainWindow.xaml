@@ -17,17 +17,17 @@
         <StackPanel Grid.Column="0" Margin="10" Background="LightGray">
             <TextBlock Text="Size" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold"></TextBlock>
             <ListBox x:Name="lstbox_sizeListbox">
-                <ListBoxItem Content="4x4"/>
-                <ListBoxItem Content="6x6"/>
-                <ListBoxItem Content="8x8"/>
+                <ListBoxItem Content="2x2" Tag="2"/>
+                <ListBoxItem Content="4x4" Tag="4"/>
+                <ListBoxItem Content="6x6" Tag="6"/>
             </ListBox>
             <TextBlock Text="Theme" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold"/>
             <ListBox x:Name="lstbox_themeListbox">
-                <ListBoxItem Content="Numbers"/>
-                <ListBoxItem Content="Smiley"/>
-                <ListBoxItem Content="Country-Capital"/>
+                <ListBoxItem Content="Numbers" Tag="numbers"/>
+                <ListBoxItem Content="Smiley" Tag="smiley"/>
+                <ListBoxItem Content="Country-Capital" Tag="countrycapital"/>
             </ListBox>
-            <Button x:Name="btn_StartGame" Content="Start Game" FontSize="25" FontWeight="Bold" Background="Green" Margin="0,30,0,10"/>
+            <Button x:Name="btn_StartGame" Content="Start Game" FontSize="25" FontWeight="Bold" Background="Green" Margin="0,30,0,10" Click="Click_StartGameButton"/>
             <TextBlock x:Name="txtblock_attempts" Text="Attempts: 0" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="Red"/>
             <TextBlock x:Name="txtblock_status" Text="Press the Button to start the game" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold" Foreground="BlueViolet"/>
         </StackPanel>
