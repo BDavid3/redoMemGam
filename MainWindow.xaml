@@ -25,7 +25,7 @@
             <ListBox x:Name="lstbox_themeListbox">
                 <ListBoxItem Content="Numbers" Tag="numbers"/>
                 <ListBoxItem Content="Smiley" Tag="smiley"/>
-                <ListBoxItem Content="Country-Capital" Tag="countrycapital"/>
+                <ListBoxItem Content="Countries" Tag="countries"/>
             </ListBox>
             <Button x:Name="btn_StartGame" Content="Start Game" FontSize="25" FontWeight="Bold" Background="Green" Margin="0,30,0,10" Click="Click_StartGameButton"/>
             <TextBlock x:Name="txtblock_attempts" Text="Attempts: 0" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="Red"/>
