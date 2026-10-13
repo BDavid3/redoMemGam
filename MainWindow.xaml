@@ -29,7 +29,7 @@
             </ListBox>
             <Button x:Name="btn_StartGame" Content="Start Game" FontSize="25" FontWeight="Bold" Background="Green" Margin="0,30,0,10" Click="Click_StartGameButton"/>
             <TextBlock x:Name="txtblock_attempts" Text="Attempts: 0" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="Red"/>
-            <TextBlock x:Name="txtblock_status" Text="Press the Button to start the game" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold" Foreground="BlueViolet"/>
+            <TextBlock x:Name="txtblock_status" Text="Press the Start Game Button to start the game" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold" Foreground="BlueViolet"/>
         </StackPanel>
         <!-- Right Side Panel-->
         <Grid x:Name="grd_gameGrid" Grid.Column="1" Margin="10" Background="LightGray"></Grid>
